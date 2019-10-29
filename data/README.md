@@ -68,7 +68,7 @@
 
 
   
-2. kospi_disc.ipynb
+2. kospi_dsc.ipynb
 
     - kospi 데이터 탐색용
   

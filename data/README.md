@@ -5,8 +5,8 @@
   1. kospi_train.csv
   
     2001-01-02부터 2016-12-31까지
-    - **kospi_train_1.csv**
-    kospi_train의 수정 ver.1
+    kospi_train_1.csv
+    - kospi_train의 수정 ver.1
       - 지수시가, 지수고가, 지수저가 삭제
       - diff(:기준일 지수종가 - 5일 후 지수종가) 추가
       - Y_TF(:diff>0에 대한 논리연산) 추가

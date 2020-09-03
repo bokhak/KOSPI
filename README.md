@@ -17,9 +17,10 @@
   
 ## 문제 해결 프로세스
 1. 데이터 확인
-2. EDA
-3. Feature Engineering
-4. Modeling
+2. 전처리
+3. EDA
+4. Feature Engineering
+5. Modeling
   - 접근 방식 2가지
     - Classification: 문제 정의에 따른 classification model 사용
       1. Adaboost
@@ -29,9 +30,9 @@
     - Regression: 5일 후 지수종가를 시계열 예측
       1. LSTM
       2. GRU
-5. Evaluation
+6. Evaluation
   - 성능평가: F1 score
-6. Conclusion
+7. Conclusion
   
 
 

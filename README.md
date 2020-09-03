@@ -33,7 +33,7 @@
     - [변수 축소](04_변수축소_market.ipynb)
     - [데이터 병합](04_최종데이터전처리_with_rf_ nn.ipynb)
 5. Modeling
-  - 접근 방식 2가지
+접근 방식 2가지
     - *Classification*: 문제 정의에 따른 classification model 사용
       1. [Random Forest](classification_1.randomforest.ipynb)
       2. [SVM](classification_2.SVM.ipynb)

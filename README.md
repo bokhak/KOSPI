@@ -38,7 +38,7 @@
       1. [Random Forest](classification_1.randomforest.ipynb)
       2. [SVM](classification_2.SVM.ipynb)
       3. [LGBM](classification_3.LightGBM.ipynb)
-      4. [Stacking](classification_4. stacking.ipynb)
+      4. [Stacking](classification_4.stacking.ipynb)
     - *Regression*: 5일 후 지수종가를 시계열 예측
       1. [LSTM](05_Time_Series_Reg_LSTM.ipynb)
       2. [GRU](05_Time_Series_Reg_GRU.ipynb)

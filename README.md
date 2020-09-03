@@ -13,28 +13,30 @@
 #### 문제 정의
 - 국면 예측: 5일 대비 **상승**/**하락** [**분류 Classification**]
 
-#### 데이터
-  - Independent Vars.
-  - Response Vars.
+#### [데이터](data/README.md)
+> 데이터 사용 규정으로 인해 데이터 삭제
+  - Train Data: kospi_train  economic_train  exchange_train  market_train  per_train
+  - Test Data: kospi_test  economic_test  exchange_test  market_test  per_test
   
 ## 문제 해결 프로세스
 1. 데이터 확인
-2. 전처리
-3. EDA
+  - [전체 데이터](01_문제접근_데이터탐색.ipynb)
+  - [kospi 데이터](01_문제접근_kospi_탐색.ipynb)
+2. [EDA](02_EDA_economic.csv)
+3. [Preprocessing](03_preprocessing_cleaning.ipynb)
 4. Feature Engineering
+  - [변수 축소](04_변수축소_market.ipynb)
+  - [데이터 병합](04_최종데이터전처리_with_rf_ nn.ipynb)
 5. Modeling
   - 접근 방식 2가지
     - Classification: 문제 정의에 따른 classification model 사용
-      1. Adaboost
-      2. Random Forest
-      3. Logistic Regression
-      4. Stacking
+      1. [Random Forest](classification_1.random forest.ipynb)
+      2. [SVM](classification_2.SVM.ipynb)
+      3. [LGBM](classification_3.LightGBM.ipynb)
+      4. [Stacking](classification_4. stacking.ipynb)
     - Regression: 5일 후 지수종가를 시계열 예측
-      1. LSTM
-      2. GRU
+      1. [LSTM](05_Time_Series_Reg_LSTM.ipynb)
+      2. [GRU](05_Time_Series_Reg_GRU.ipynb)
 6. Evaluation
   - 성능평가: F1 score
 7. Conclusion
-  
-
-

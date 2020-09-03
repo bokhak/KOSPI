@@ -1,10 +1,14 @@
-# Kospi
+# KOSPI
 2019 미래에셋대우 대학생 디지털 금융페스티벌 - 빅데이터 페스티벌 - 과제2_국면분석
+공모전 참가 기록
+
+
 ## 대회 개요
 - [2019 미래에셋대우 대학생 디지털 금융 페스티벌 - 빅데이터 페스티벌](https://www.miraeassetdaewoo.com/hki/hki7110/n03_1.do)
   - 주최: [미래에셋대우](https://www.miraeassetdaewoo.com/hki/hki7110/n01.do)
   - 대회기간: 2019.09.23(월) ~ 2019.11.08(금)
   - 팀명: 복학러들
+
 
 ## 과제 개요
 ### 과제2_국면분석
@@ -18,6 +22,7 @@
   - Train Data: kospi_train  economic_train  exchange_train  market_train  per_train
   - Test Data: kospi_test  economic_test  exchange_test  market_test  per_test
   
+
 ## 문제 해결 프로세스
 1. 데이터 확인
     - [전체 데이터](01_문제접근_데이터탐색.ipynb)
@@ -30,7 +35,7 @@
 5. Modeling
   - 접근 방식 2가지
     - *Classification*: 문제 정의에 따른 classification model 사용
-      1. [Random Forest](classification_1.random forest.ipynb)
+      1. [Random Forest](classification_1.randomforest.ipynb)
       2. [SVM](classification_2.SVM.ipynb)
       3. [LGBM](classification_3.LightGBM.ipynb)
       4. [Stacking](classification_4. stacking.ipynb)

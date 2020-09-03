@@ -3,6 +3,8 @@
 ## 대회 개요
 - [2019 미래에셋대우 대학생 디지털 금융 페스티벌 - 빅데이터 페스티벌](https://www.miraeassetdaewoo.com/hki/hki7110/n03_1.do)
   - 주최: [미래에셋대우](https://www.miraeassetdaewoo.com/hki/hki7110/n01.do)
+  - 대회기간: 2019.09.23(월) ~ 2019.11.08(금)
+  - 팀명: 복학러들
 
 ## 과제 개요
 ### 과제2_국면분석
